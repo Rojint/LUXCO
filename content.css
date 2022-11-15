@@ -82,3 +82,60 @@
     height: 80%;
     width: 88%;
 }
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 90%;
+        margin: 0 auto;
+        height: 90vh;
+        background-color: var(--darkgray);
+    }
+
+    .main-content {
+        justify-self: center;
+        color: var(--white);
+        width: 80%;
+        margin: 0;
+
+    }
+
+    .main-content h1 {
+        font-size: 2.5rem;
+
+    }
+
+    .main-content p {
+        margin-top:  1rem;
+        font-size: 1.5 rem;
+    }
+
+    .main-img-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .main-content {
+        text-align: center;
+
+    }
+
+    .main-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .main-content p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+
+    }
+
+    .main-btn {
+        padding: 12px 36px;
+        margin-top: 2.5rem;
+    }
+}
