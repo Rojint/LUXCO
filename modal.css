@@ -176,10 +176,7 @@
 }
 
 @media screen and (max-width: 580px) {
-    
-
     .modal-content {
-        grid-template-columns: auto;
         margin: 20% auto;
         width: 90%;
         height: 80%;
